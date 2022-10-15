@@ -6,4 +6,6 @@ Group: K33212
 Author: Spevak Elena Aleksandrovna
 Lab: Lab1
 Date of create: 20.09.2022
-Date of finished: 31.09.2022
+Date of finished: 15.10.2022
+
+Отчёт
