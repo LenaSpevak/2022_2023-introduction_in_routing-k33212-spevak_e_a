@@ -1,0 +1,50 @@
+name: lab01_spevak
+
+mgmt:
+  network: lspevak_mgmt
+  ipv4_subnet: 172.13.13.0/24
+
+topology:
+  nodes:
+    R01.TEST:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.10
+
+    SW01.L3.01.TEST:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.11
+
+    SW02.L3.01.TEST:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.12
+
+    SW02.L3.02.TEST:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.13
+
+    PC1:
+      kind: linux
+      image: ubuntu:latest
+      mgmt_ipv4: 172.13.13.14
+
+    PC2:
+      kind: linux
+      image: ubuntu:latest
+      mgmt_ipv4: 172.13.13.15
+
+  links:
+    - endpoints: ["R01.TEST:eth1","SW01.L3.01.TEST:eth1"]
+    - endpoints: ["SW01.L3.01.TEST:eth2","SW02.L3.01.TEST:eth1"]
+    - endpoints: ["SW01.L3.01.TEST:eth3","SW02.L3.02.TEST:eth1"]
+    - endpoints: ["SW02.L3.01.TEST:eth2","PC1:eth1"]
+    - endpoints: ["SW02.L3.02.TEST:eth2","PC2:eth1"]
+
+
+
+
+
+    
