@@ -9,10 +9,9 @@ Date of create: 20.09.2022
 Date of finished: 15.10.2022
 
 Отчёт
-В ходе работы был создан файл task1.yaml, в котором описана вся топология трехуровневой сети связи классического предприятия
+В ходе работы был создан файл task1.yaml, в котором описана вся топология трехуровневой сети связи классического предприятии
 
-
-![scheme:](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab1/Lab1.jpg)
+Примечание:![scheme](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab1/Lab1.jpg)
 
  С помощью ContainerLab были созданы все устройства и соединения между ними.
 Была создана сеть lspevak_mgmt, настроены  IP адреса на интерфейсах и два VLAN-a для двух компьютеров, созданы два DHCP сервера на центральном роутере во VLAN-ах для расдачи IP адресов на комьютеры. Имена комьютеров были изменены на PC-MSC PC-SPB.
