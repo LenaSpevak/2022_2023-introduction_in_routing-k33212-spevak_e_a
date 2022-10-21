@@ -6,7 +6,7 @@
 #### Author: Spevak Elena Aleksandrovna
 #### Lab: Lab1
 #### Date of create: 20.09.2022
-#### Date of finished: 20.10.2022
+#### Date of finished: 21.10.2022
 
 # **Отчёт по лабораторной работе №1**
 
