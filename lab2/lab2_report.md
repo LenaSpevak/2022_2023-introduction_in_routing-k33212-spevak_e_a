@@ -18,7 +18,7 @@
 **Ход работы**
 
 Была сделана сеть связи в трёх распределенных офисах "RogaIKopita Games" в ContainerLab. Топология сети описана в [yaml-файле](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab2/lab2.yaml). 
-![Схема сети]()
+![Схема сети](Untitled Diagram.drawio.png)
  
 На всех устройсвтах были настроены IP адреса и статическая маршрутизация. На роутерах в сторону клиентских устройств были созданы DHCP серверы. 
 
