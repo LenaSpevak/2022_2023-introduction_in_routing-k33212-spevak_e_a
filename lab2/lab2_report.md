@@ -1,18 +1,18 @@
-####University: [ITMO University](https://##3itmo.ru/ru/)
-####Faculty: [FICT](https://fict.itmo.ru)
-####Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introduction-in-routing)
-####Year: 2022/2023
-####Group: K33212
-####Author: Spevak Elena Aleksandrovna
-####Lab: Lab2
-####Date of create: 17.11.2022
-####Date of finished: 18.11.2022
+#### University: [ITMO University](https://##3itmo.ru/ru/)
+#### Faculty: [FICT](https://fict.itmo.ru)
+#### Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introduction-in-routing)
+#### Year: 2022/2023
+#### Group: K33212
+#### Author: Spevak Elena Aleksandrovna
+#### Lab: Lab2
+#### Date of create: 17.11.2022
+#### Date of finished: 18.11.2022
 
-#**Отчёт по лабораторной работе №2**
+# **Отчёт по лабораторной работе №2**
 
-#Эмуляция распределенной корпоративной сети связи, настройка статической маршрутизации между филиалами
+# Эмуляция распределенной корпоративной сети связи, настройка статической маршрутизации между филиалами
 
-#Цель работы
+# **Цель работы**
 Ознакомиться с принципами планирования IP адресов, настройке статической маршрутизации и сетевыми функциями устройств.
 
 В ходе работы была сделана сеть связи в трёх распределенных офисах "RogaIKopita Games" в ContainerLab. Топология сети описана в [yaml-файле](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab2/lab2.yaml). 
