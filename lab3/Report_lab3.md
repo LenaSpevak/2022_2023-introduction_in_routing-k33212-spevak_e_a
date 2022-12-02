@@ -1,18 +1,18 @@
- ####University: [ITMO University](https://##3itmo.ru/ru/)
- ####Faculty: [FICT](https://fict.itmo.ru)
- ####Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introduction-in-routing)
- ####Year: 2022/2023
- ####Group: K33212
- ####Author: Spevak Elena Aleksandrovna
- ####Lab: Lab3
- ####Date of create: 1.12.2022
- ####Date of finished: 2.12.2022
+#### University: [ITMO University](https://##3itmo.ru/ru/)
+#### Faculty: [FICT](https://fict.itmo.ru)
+#### Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introduction-in-routing)
+#### Year: 2022/2023
+#### Group: K33212
+#### Author: Spevak Elena Aleksandrovna 
+#### Lab: Lab3
+#### Date of create: 1.12.2022
+#### Date of finished: 2.12.2022
 
-#**Отчёт по лабораторной работе №3**
+# **Отчёт по лабораторной работе №3**
 
-#Эмуляция распределенной корпоративной сети связи, настройка OSPF и MPLS, организация первого EoMPLS
+# Эмуляция распределенной корпоративной сети связи, настройка OSPF и MPLS, организация первого EoMPLS
 
-#Цель работы
+# Цель работы
 Изучить протоколы OSPF и MPLS, механизмы организации EoMPLS.
 
 В ходе работы был подлючён офис в Нбю-Йорке в общей сети IP/MPLS и организовано EoMPLS между SGI-Prism и компьютером инженеров в офисе в Санкт-Петербурге.
