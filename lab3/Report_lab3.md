@@ -244,23 +244,23 @@ set name=PC1
 
 Таблицы MPLS маршрутов на роутерах:
 
-![NY](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/mpls_table-NY.png)
+![NY](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/screenshots/mpls_table-NY.png)
 
-![SPB](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/mpls_table-SPB.png)
+![SPB](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/screenshots/mpls_table-SPB.png)
 
-![LND](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/mpls_table-LND.png)
+![LND](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/screenshots/mpls_table-LND.png)
 
-![MSK](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/mpls_table-MSK.png)
+![MSK](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/screenshots/mpls_table-MSK.png)
 
-![HKI](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/mpls_table-HLK.png)
+![HKI](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/screenshots/mpls_table-HLK.png)
 
 С помощью EoMPLS были связаны порты eth2 и eth4 на роутерах R01.NY и R01.SPB соответсвенно. Через тунель 100 можно организовать соединение компьютеров.
 
 Для проверки связанности офисов в Нью-Йорке и Санкт-Петербурге были пропингованы компьютеры:
 
-![PingSGI-Prism](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/SGI-Prism_ping.png)
+![PingSGI-Prism](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/screenshots/SGI-Prism_ping.png)
 
-![PingPC!](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/PC1_ping.png)
+![PingPC!](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/screenshots/PC1_ping.png)
 
 **Вывод**
 Были изучены протоколы OSPF, MPLS и механизмы организации EoMPLS. Полученные знания были применены в построении сети связи для "RogaIKopita Games". 
