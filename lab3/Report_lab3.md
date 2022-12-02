@@ -53,7 +53,8 @@ add interface=ether4
 /routing ospf network
 add area=backbone
 /system identity
-set name=R01.NY```
+set name=R01.NY
+```
 
 - Роутер R01.LND:
 ```R01.LND:
@@ -78,7 +79,8 @@ add interface=ether3
 /routing ospf network
 add area=backbone
 /system identity
-set name=R01.LND```
+set name=R01.LND
+```
 
 - Роутер R01.HKI:
 ```/interface bridge
@@ -128,7 +130,8 @@ add interface=ether4
 /routing ospf network
 add area=backbone
 /system identity
-set name=R01.HKI```
+set name=R01.HKI
+```
 
 - Роутер R01.SPB:
 ```/interface bridge
@@ -159,7 +162,8 @@ add interface=ether3
 /routing ospf network
 add area=backbone
 /system identity
-set name=R01.SPB```
+set name=R01.SPB
+```
 
 - Роутер R01.MSK:
 ```/interface bridge
@@ -183,7 +187,8 @@ add interface=ether3
 /routing ospf network
 add area=backbone
 /system identity
-set name=R01.MSK```
+set name=R01.MSK
+```
 
 - Роутер R01.LBN:
 ```/interface bridge
@@ -209,7 +214,8 @@ add interface=ether4
 /routing ospf network
 add area=backbone
 /system identity
-set name=R01.LBN```
+set name=R01.LBN
+```
 
 На комьютерах были настроены IP адреса интерфейсов:
 -SGI-Prism:
@@ -221,7 +227,8 @@ add address=10.0.0.1/24 interface=ether2 network=10.0.0.0
 /ip dhcp-client
 add disabled=no interface=ether1
 /system identity
-set name=SGI-Prism```
+set name=SGI-Prism
+```
 
 -PC1:
 ```/interface wireless security-profiles
@@ -232,7 +239,8 @@ add address=10.0.0.2/24 interface=ether2 network=10.0.0.0
 /ip dhcp-client
 add disabled=no interface=ether1
 /system identity
-set name=PC1```
+set name=PC1
+```
 
 Таблицы MPLS маршрутов на роутерах:
 
