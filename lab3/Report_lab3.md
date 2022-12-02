@@ -263,4 +263,4 @@ set name=PC1
 ![PingPC!](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab3/PC1_ping.png)
 
 **Вывод**
-Были изучены протоколы OSPF, MPLS и механизмы организации EoMPLS. полученные знания были применены в построении сети связи для "RogaIKopita Games". 
+Были изучены протоколы OSPF, MPLS и механизмы организации EoMPLS. Полученные знания были применены в построении сети связи для "RogaIKopita Games". 
