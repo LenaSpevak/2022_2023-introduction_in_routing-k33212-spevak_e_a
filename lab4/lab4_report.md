@@ -6,7 +6,7 @@
  #### Author: Spevak Elena Aleksandrovna
  #### Lab: Lab4
  #### Date of create: 13.12.2022
- #### Date of finished: 2.12.2022
+ #### Date of finished: 26.12.2022
 
 # **Отчёт по лабораторной работе №4**
 
@@ -19,7 +19,7 @@
  В Containerlab была создана IP/MPLS сеть для компании "RogaIKopita Games", топология которой описана в [yaml файле](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab4/task4.yaml). 
 
  Схема сети:
- ![schema](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab4/screenshots/lab4.drawio.png)
+ ![schema](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/commit/e894d833093ddf5fc5113fed640d864d6020fa83))
 
 На устройствах были настроены IP адреса на интерйесах, OSPF и MPLS, iBGP с route  reflect кластером.
  
