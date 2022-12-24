@@ -19,7 +19,7 @@
  В Containerlab была создана IP/MPLS сеть для компании "RogaIKopita Games", топология которой описана в [yaml файле](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab4/task4.yaml). 
 
  Схема сети:
- ![schema](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/commit/e894d833093ddf5fc5113fed640d864d6020fa83))
+ ![schema](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab4/screenshots/lab4.drawio.png)
 
 На устройствах были настроены IP адреса на интерйесах, OSPF и MPLS, iBGP с route  reflect кластером.
  
