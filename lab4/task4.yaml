@@ -1,0 +1,64 @@
+name: lab04_spevak
+
+mgmt:
+  network: lspevak_mgmt
+  ipv4_subnet: 172.13.13.0/24
+
+topology:
+  nodes:
+    R01.NY:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.10
+
+    R01.LND:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.11
+
+    R01.HKI:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.12
+
+    R01.SPB:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.13
+
+    R01.LBN:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.14
+
+    R01.SVL:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.15
+
+    PC1:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.16
+
+    PC2:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.17
+
+    PC3:
+      kind: vr-ros
+      image: vrnetlab/vr-routeros:6.47.9
+      mgmt_ipv4: 172.13.13.18
+  
+  links:
+    - endpoints: ["PC1:eth1","R01.SPB:eth2"]
+    - endpoints: ["PC2:eth1","R01.NY:eth1"]
+    - endpoints: ["PC3:eth1","R01.SVL:eth2"]
+    - endpoints: ["R01.NY:eth2","R01.LND:eht1"]
+    - endpoints: ["R01.LND:eth2","R01.HKI:eth1"]
+    - endpoints: ["R01.LND:eth3","R01.LBN:eth1"]
+    - endpoints: ["R01.HKI:eth2","R01.SPB:eth1"]
+    - endpoints: ["R01.HKI:eth3","R01.LBN:eth2"]
+    - endpoints: ["R01.LBN:eth3","R01.SVL:eth1"]
+
