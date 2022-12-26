@@ -1,8 +1,8 @@
-#### University: [ITMO University](https://##3itmo.ru/ru/)
+ #### University: [ITMO University](https://##3itmo.ru/ru/)
  #### Faculty: [FICT](https://fict.itmo.ru)
  #### Course: [Introduction in routing](https://github.com/itmo-ict-faculty/introduction-in-routing)
  #### Year: 2022/2023
- ####  Group: K33212
+ #### Group: K33212
  #### Author: Spevak Elena Aleksandrovna
  #### Lab: Lab4
  #### Date of create: 13.12.2022
@@ -24,7 +24,7 @@
 На устройствах были настроены IP адреса на интерйесах, OSPF и MPLS, iBGP с route  reflect кластером.
  
 Для начала был настроен L3VPN. 
-На роутерах были созданы Loopback интерфейсы, на которых настроены адреса. На трех роутерах в центре схемы настроены iBGP RR Cluster, VRF причём на интерфейсах между ними route-reflect=yes, а на итерфейсах, которые связывают роутеры с подключенными комьпютерами, route-reflect=no. 
+На роутерах были созданы Loopback интерфейсы, на которых настроены адреса. На трех роутерах в центре схемы настроены iBGP RR Cluster, VRF причём на интерфейсах между ними route-reflect=yes, а на итерфейсах, которые связывают роутеры с подключенными комьпютерами, route-reflect=no. Все роутеры находятся в одной AS-65530. На роутерах NY, SPB и SVL настроены Route Distinguisher 65530:100 и Route-Target(import & export)-тоже 65530:100. На этих же роутерах астроена IP адресация в VRF и проверена связность между ними.
 
 Тексты конфигураций каждого из сетевых устройств:
 - Роутер R01.NY:
@@ -237,4 +237,4 @@ set name=R01.SVL
 
 
 # Вывод
-Были изучены протоколы BGP, MPLS и правила организации L3VPN и VPLS. Полученные знания были применены при проектировании  IP/MPLS сеть связи для компании "RogaIKopita Games".
+Были изучены протоколы BGP, MPLS и правила организации L3VPN. Полученные знания были применены при проектировании  IP/MPLS сеть связи для компании "RogaIKopita Games".
