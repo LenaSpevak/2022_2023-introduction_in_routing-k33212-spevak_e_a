@@ -22,6 +22,8 @@
  ![schema](https://github.com/LenaSpevak/2022_2023-introduction_in_routing-k33212-spevak-e-a/blob/main/lab4/screenshots/lab4.drawio.png)
 
 На устройствах были настроены IP адреса на интерйесах, OSPF и MPLS, iBGP с route  reflect кластером.
+
+Часть 1.Настройка VRF.
  
 Для начала был настроен L3VPN. 
 На роутерах были созданы Loopback интерфейсы, на которых настроены адреса. На трех роутерах в центре схемы настроены iBGP RR Cluster, VRF причём на интерфейсах между ними route-reflect=yes, а на итерфейсах, которые связывают роутеры с подключенными комьпютерами, route-reflect=no. Все роутеры находятся в одной AS-65530. На роутерах NY, SPB и SVL настроены Route Distinguisher 65530:100 и Route-Target(import & export)-тоже 65530:100. На этих же роутерах астроена IP адресация в VRF и проверена связность между ними.
